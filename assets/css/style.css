@@ -1,0 +1,74 @@
+:root {
+
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-image: url(../images/background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 1.5rem auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+/* Home Page */
+.bg-img {
+    background-position: center;
+    background-image: url(../images/background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+iframe {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Charities */
+
+.qr-codes {
+    height: 7.5rem;
+    width: 7.5rem;
+}
+
+.w-wrap {
+    word-wrap: break-word;
+}
