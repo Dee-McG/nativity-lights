@@ -68,3 +68,12 @@ iframe {
 .w-wrap {
     word-wrap: break-word;
 }
+
+.charities {
+    padding-left: 2rem;
+}
+
+.charities li {
+    line-height: 2rem;
+    list-style: disc;
+}
