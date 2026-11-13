@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Sponsor an animal at Tom Giblin's live nativity and Christmas lights in Lisnenan, Letterkenny. Every euro goes to 16 local and national charities."
+    />
+    <meta
+      name="keywords"
+      content="Letterkenny, Christmas, Nativity, Sponsor an Animal, Christmas Lights, Donegal, Charity, Tom Giblin"
+    />
+    <meta name="author" content="Daisy McGirr" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Sponsor an Animal – Tom Giblin Nativity & Christmas Lights" />
+    <meta property="og:description" content="Put your business on the Sponsors board this Christmas and help raise €16,000 for 16 charities." />
+    <meta property="og:image" content="https://christmas-nativity-lights.ie/assets/images/about.webp" />
+    <meta property="og:url" content="https://christmas-nativity-lights.ie/sponsors" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/sponsors.css" />
+
+    <title>Tom Giblin Christmas / Nativity Lights - Sponsor an Animal</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
+      >
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              >Tom Giblin</span
+            >
+          </a>
+          <button
+            data-collapse-toggle="navbar-solid-bg"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-solid-bg"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+            <ul
+              class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700"
+            >
+              <li>
+                <a
+                  href="index.html"
+                  class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="gallery.html"
+                  class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  href="charities.html"
+                  class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
+                  >Charities</a
+                >
+              </li>
+              <li>
+                <a
+                  href="sponsors.html"
+                  aria-current="page"
+                  class="block py-2 px-3 md:p-0 text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
+                  >Sponsor an Animal</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="sp">
+      <div class="sp-wrap">
+        <section class="sp-hero">
+          <canvas id="sp-stars" aria-hidden="true"></canvas>
+          <div class="sp-hero-inner">
+            <div class="sp-eyebrow">Tom Giblin Nativity &amp; Christmas Lights · Lisnenan, Letterkenny</div>
+            <h1>Sponsor an animal this Christmas</h1>
+            <p>
+              Put your business on the Sponsors board at the stable gates and help us raise
+              €16,000 for 16 local and national charities. One sponsor per animal, so the first
+              business to choose gets it.
+            </p>
+            <div class="sp-progress" aria-label="Sponsorship progress">
+              <div class="sp-bar"><div class="sp-fill" id="sp-fill" style="width: 0%"></div></div>
+              <div class="sp-lbl">
+                <span><b id="sp-raised">€0</b> sponsored so far</span><span>€16,000 goal</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="sp-notice" id="sp-notice" hidden></div>
+
+        <div class="sp-grid">
+          <form id="sp-form" novalidate>
+            <section class="sp-section">
+              <div class="sp-step"><span class="sp-n">1</span><h2>Choose your animals</h2></div>
+              <p class="sp-hint">
+                Pick as many as you like. Each animal has one sponsor, so the first business to
+                choose gets it.
+              </p>
+              <div class="sp-pens" id="sp-pens" aria-busy="true">
+                <p class="sp-loading">Loading the animals…</p>
+              </div>
+              <p class="sp-err" id="sp-err-animal" hidden>Choose at least one animal to sponsor.</p>
+            </section>
+
+            <section class="sp-section">
+              <div class="sp-step"><span class="sp-n">2</span><h2>Your details</h2></div>
+              <div class="sp-fields">
+                <div class="sp-f sp-full">
+                  <label for="sp-biz">Business name</label>
+                  <span class="sp-fhint">This is how we’ll thank you on the website, Facebook and in the press.</span>
+                  <input type="text" id="sp-biz" name="business" autocomplete="organization" required maxlength="120" />
+                </div>
+                <div class="sp-f">
+                  <label for="sp-contact">Contact name</label>
+                  <input type="text" id="sp-contact" name="contact" autocomplete="name" required maxlength="120" />
+                </div>
+                <div class="sp-f">
+                  <label for="sp-phone">Phone</label>
+                  <input type="tel" id="sp-phone" name="phone" autocomplete="tel" maxlength="40" />
+                </div>
+                <div class="sp-f sp-full">
+                  <label for="sp-email">Email</label>
+                  <span class="sp-fhint">We’ll send your confirmation and the iDonate link here.</span>
+                  <input type="email" id="sp-email" name="email" autocomplete="email" required maxlength="160" />
+                </div>
+                <div class="sp-f sp-full">
+                  <label for="sp-social">Facebook or Instagram page <span class="sp-fhint">(optional)</span></label>
+                  <span class="sp-fhint">So we can tag you when we share your sponsor photo.</span>
+                  <input type="text" id="sp-social" name="social" maxlength="160" />
+                </div>
+                <div class="sp-f sp-full">
+                  <label for="sp-charity">Which charity would you like to support?</label>
+                  <span class="sp-fhint">Share it across all 16, or choose one of our charities.</span>
+                  <select id="sp-charity" name="charity">
+                    <option value="All 16 charities, shared equally" selected>Share it equally across all 16 charities</option>
+                    <option>St Vincent de Paul Letterkenny</option>
+                    <option>Children’s Health Foundation Crumlin/Temple St</option>
+                    <option>Pieta House North West</option>
+                    <option>Jack &amp; Jill Foundation</option>
+                    <option>Little Blue Heroes</option>
+                    <option>Irish Wheelchair Association</option>
+                    <option>Bumbleance Donegal</option>
+                    <option>MS Ireland Donegal</option>
+                    <option>Little Angels School Letterkenny</option>
+                    <option>St Bernadette’s Special School Letterkenny</option>
+                    <option>Donegal Hospice</option>
+                    <option>Donegal Down Syndrome</option>
+                    <option>Bluestack Special Needs Foundation</option>
+                    <option>Good &amp; New Cancer Bus Letterkenny</option>
+                    <option>Donegal Donkey Sanctuary</option>
+                    <option>Alzheimer Society of Ireland, Donegal</option>
+                  </select>
+                </div>
+                <div class="sp-f sp-full">
+                  <label for="sp-logo">Your logo</label>
+                  <span class="sp-fhint">
+                    We’ll print it on an A4 sign with the name of the animal you sponsored and put it
+                    on the Sponsors board at the stable gates. PNG or JPG, up to 5MB.
+                  </span>
+                  <input type="file" id="sp-logo" name="logo" accept="image/png,image/jpeg,image/webp,image/svg+xml,application/pdf" />
+                </div>
+                <div class="sp-f sp-full">
+                  <label for="sp-note">Anything else? <span class="sp-fhint">(optional)</span></label>
+                  <textarea id="sp-note" name="note" maxlength="1000"></textarea>
+                </div>
+                <div class="sp-hp" aria-hidden="true">
+                  <label for="sp-website">Leave this empty</label>
+                  <input type="text" id="sp-website" name="website" tabindex="-1" autocomplete="off" />
+                </div>
+                <div class="sp-f sp-full">
+                  <label class="sp-check">
+                    <input type="checkbox" id="sp-consent" name="consent" />
+                    We’re happy for our business name and logo to appear on the Sponsors board,
+                    website, Facebook page and in press coverage.
+                  </label>
+                </div>
+              </div>
+              <p class="sp-err" id="sp-err-details" hidden></p>
+            </section>
+
+            <section class="sp-section">
+              <div class="sp-step"><span class="sp-n">3</span><h2>How payment works</h2></div>
+              <ol class="sp-howpay">
+                <li><b>Reserve your animals here.</b> Click the button to hold your animals and send us your details.</li>
+                <li>
+                  <b>Donate on iDonate.</b> We’ll take you straight to our iDonate page and email you the
+                  link too. Donate the total there, and put your business name in the message so we can
+                  match it.
+                </li>
+                <li>
+                  <b>You’re on the board.</b> Once Tom sees your donation, your animals are marked as
+                  sponsored on this page. iDonate emails you a receipt for your records.
+                </li>
+              </ol>
+              <p class="sp-hint sp-hint-after">
+                Animals are held for 24 hours while your donation comes through, so please donate
+                straight away.
+              </p>
+            </section>
+          </form>
+
+          <aside class="sp-slip" aria-live="polite">
+            <div class="sp-slip-head">
+              <div class="sp-eyebrow">Your sponsorship</div>
+              <h3 id="sp-s-animal">No animals chosen yet</h3>
+            </div>
+            <div class="sp-slip-body">
+              <ul class="sp-lines" id="sp-s-list"></ul>
+              <div class="sp-row"><span>Sponsor</span><span id="sp-s-biz">–</span></div>
+              <div class="sp-row"><span>Charity</span><span id="sp-s-charity">All 16, shared equally</span></div>
+              <div class="sp-row"><span>Payment</span><span>Donation on iDonate</span></div>
+              <div class="sp-total"><span>Total</span><strong id="sp-s-total">€0</strong></div>
+              <button class="sp-btn" id="sp-go" type="button">Choose an animal</button>
+              <p class="sp-fine">100% of your sponsorship goes to the 16 charities.</p>
+              <div>
+                <div class="sp-eyebrow sp-muted">Every sponsor gets</div>
+                <ul class="sp-gets">
+                  <li>An A4 sign with your logo and animal on the Sponsors board at the stable gates</li>
+                  <li>A listing on the website and Facebook page</li>
+                  <li>A photo with your animal, shared and tagged</li>
+                  <li>A mention in press coverage</li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-white shadow dark:bg-gray-800">
+      <div class="w-full mx-auto max-w-screen-xl p-4 text-center">
+        <span class="text-sm text-gray-500"
+          >© 2026 Tom Giblin. All Rights Reserved.
+        </span>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+    <script src="assets/js/sponsors.js"></script>
+  </body>
+</html>
